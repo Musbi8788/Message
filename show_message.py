@@ -16,9 +16,8 @@ def send_message(message_lists, send_messages):
         print(text)
 
     """print the message list"""
+    # bug
     print(f'The message list is empty: {message_lists}')
-
-
 
 
     
@@ -32,4 +31,5 @@ message_lists = [
 sent_messages = []
 
 show_text = show_message(message_lists)
+# copy the message lists and pass it as an agrument
 final_process = send_message(message_lists=message_lists[:], send_messages=sent_messages)
