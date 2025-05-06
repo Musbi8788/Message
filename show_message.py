@@ -1,5 +1,5 @@
 def show_message(text_messages):
-    """Display the text message fo peoples"""
+    """Display the text message to peoples"""
     for text_message in text_messages:
         text = f'\n{text_message.title()}'
         # print(text)
